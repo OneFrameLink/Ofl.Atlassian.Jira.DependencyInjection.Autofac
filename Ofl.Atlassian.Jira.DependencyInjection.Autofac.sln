@@ -1,9 +1,14 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26114.2
+VisualStudioVersion = 15.0.26430.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ofl.Atlassian.Jira.DependencyInjection.Autofac", "src\Ofl.Atlassian.Jira.DependencyInjection.Autofac\Ofl.Atlassian.Jira.DependencyInjection.Autofac.csproj", "{BC3C5808-DC11-4483-98D4-63BD338381BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{35DF52E1-6755-437E-B9DB-A2BC659E482A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{83C39EE7-09EC-47DD-89D2-5B2EF71111AC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.Atlassian.Jira.DependencyInjection.Autofac.Tests", "test\Ofl.Atlassian.Jira.DependencyInjection.Autofac.Tests\Ofl.Atlassian.Jira.DependencyInjection.Autofac.Tests.csproj", "{1E3C0499-5F8A-448F-B183-42B2F0C86FE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +20,16 @@ Global
 		{BC3C5808-DC11-4483-98D4-63BD338381BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC3C5808-DC11-4483-98D4-63BD338381BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC3C5808-DC11-4483-98D4-63BD338381BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E3C0499-5F8A-448F-B183-42B2F0C86FE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E3C0499-5F8A-448F-B183-42B2F0C86FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E3C0499-5F8A-448F-B183-42B2F0C86FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E3C0499-5F8A-448F-B183-42B2F0C86FE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BC3C5808-DC11-4483-98D4-63BD338381BD} = {35DF52E1-6755-437E-B9DB-A2BC659E482A}
+		{1E3C0499-5F8A-448F-B183-42B2F0C86FE3} = {83C39EE7-09EC-47DD-89D2-5B2EF71111AC}
 	EndGlobalSection
 EndGlobal
